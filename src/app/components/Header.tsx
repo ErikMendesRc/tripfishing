@@ -16,8 +16,8 @@ const Header: React.FC = () => {
             <Image
               src="/tripfishing_logo.png"
               alt="TripFishing Logo"
-              width={150} // Ajuste conforme necessário
-              height={50} // Ajuste conforme necessário
+              width={230} // Ajuste o valor conforme necessário
+              height={75} // Ajuste conforme necessário
               className="object-contain"
             />
           </Link>

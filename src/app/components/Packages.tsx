@@ -18,7 +18,7 @@ const packagesData: Package[] = [
     id: 1,
     destination: 'Amazônia',
     image: '/images/amazonia.jpg',
-    description: 'Experimente a pesca esportiva nas águas ricas do Rio de Janeiro, com vistas deslumbrantes e infraestrutura de primeira.',
+    description: 'Experimente a pesca esportiva nas águas ricas da Amazônia, com vistas deslumbrantes e um custo beneficio ótimo.',
     duration: 'Verificar datas disponíveis',
     price: 'A Definir',
   },

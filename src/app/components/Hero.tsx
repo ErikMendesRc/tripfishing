@@ -68,7 +68,9 @@ const Hero: React.FC = () => {
           Explore os melhores destinos de pesca esportiva com a Tripfishing
         </p>
         <a
-          href="#contato"
+          href={`https://wa.me/5547988436733?text=${encodeURIComponent('Olá, vi seus pacotes no TripFishing e gostaria de saber mais sobre eles!')}`}
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-6 py-3 bg-green-600 text-white text-lg rounded-md hover:bg-green-700 transition"
         >
           Entre em Contato

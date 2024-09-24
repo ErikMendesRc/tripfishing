@@ -13,8 +13,8 @@ const Footer: React.FC = () => {
             <Image
               src="/tripfishing_logo.png"
               alt="Logo TripFishing"
-              width={150}
-              height={50}
+              width={230}
+              height={75}
               className="mx-auto md:mx-0 mb-4"
             />
             <p className="text-gray-300 leading-relaxed">
