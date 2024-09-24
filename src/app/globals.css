@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+/* styles/globals.css */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: theme('colors.background');
+  color: theme('colors.foreground');
+}
+
