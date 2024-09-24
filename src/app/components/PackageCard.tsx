@@ -1,8 +1,8 @@
-// src/components/PackageCard.tsx
 'use client';
 
 import React from 'react';
 import { CalendarIcon, UserGroupIcon } from '@heroicons/react/24/solid';
+import Image from 'next/image'; // Importação do componente Image do Next.js
 
 interface PackageCardProps {
   destination: string;
@@ -22,9 +22,11 @@ const PackageCard: React.FC<PackageCardProps> = ({ destination, image, descripti
 
   return (
     <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-      <img
+      <Image
         src={image}
         alt={`Destino: ${destination}`}
+        width={600} // Defina a largura da imagem
+        height={224} // Defina a altura da imagem
         className="w-full h-56 object-cover transform transition-transform duration-300 hover:scale-105"
       />
       <div className="p-6">

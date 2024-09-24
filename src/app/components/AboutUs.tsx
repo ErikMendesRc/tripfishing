@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFish, FaLeaf, FaUsers } from 'react-icons/fa';
+import Image from 'next/image'; // Importação do componente Image do Next.js
 
 const AboutUs: React.FC = () => {
   return (
@@ -12,9 +13,11 @@ const AboutUs: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Imagem Representativa */}
           <div className="flex justify-center">
-            <img
-              src="images/logo.png"
+            <Image
+              src="/images/logo.png" // O caminho precisa começar com '/'
               alt="Aventuras de pesca com a TripFishing"
+              width={400} // Substitua com o valor correto
+              height={400} // Substitua com o valor correto
               className="rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
             />
           </div>

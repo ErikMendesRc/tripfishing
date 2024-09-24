@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from 'next/image'; // Importar o componente de imagem do Next.js
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa'; // Ícones de redes sociais
+import Image from 'next/image';
+import { FaInstagram} from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (

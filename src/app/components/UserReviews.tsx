@@ -1,7 +1,6 @@
-// components/UserReviews.tsx
-
 import React from 'react';
 import Marquee from 'react-fast-marquee';
+import Image from 'next/image'; // Importando o componente Image do Next.js
 
 interface Review {
   id: number;
@@ -64,17 +63,19 @@ const UserReviews: React.FC = () => {
           O que nossos clientes dizem
         </h2>
         <Marquee speed={30} gradient={false} pauseOnHover>
-          <div className="flex space-x-6"> {/* Ajustei aqui o space-x */}
+          <div className="flex space-x-6">
             {reviews.map((review) => (
               <div
                 key={review.id}
                 className="bg-white p-6 rounded-lg shadow-lg flex-shrink-0 w-[300px] md:w-[350px] mx-4"
               >
                 <div className="flex items-center mb-4">
-                  <img
+                  <Image
                     src={review.avatar}
                     alt={review.name}
-                    className="w-12 h-12 rounded-full mr-4 object-cover"
+                    width={48} // Definindo largura (48px)
+                    height={48} // Definindo altura (48px)
+                    className="rounded-full object-cover"
                   />
                   <div>
                     <h3 className="text-lg font-medium text-primary">{review.name}</h3>
