@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaInstagram} from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           
-          {/* Redes Sociais */}
+          {/* Redes Sociais e Contatos */}
           <div>
             <h3 className="text-xl font-bold mb-4">Siga-nos</h3>
             <div className="flex justify-center md:justify-start space-x-4">
@@ -55,6 +55,32 @@ const Footer: React.FC = () => {
               >
                 <FaInstagram size={24} />
               </a>
+            </div>
+            <h3 className="text-xl font-bold mt-6 mb-4">Contato via WhatsApp</h3>
+            <div className="flex items-center justify-center md:justify-start space-x-4">
+              <FaWhatsapp size={24} className="text-gray-300" />
+              <div>
+                <p>
+                  <a
+                    href="https://wa.me/5547988436733?text=Oi,%20vi%20alguns%20pacotes%20de%20pesca%20no%20seu%20site."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white transition"
+                  >
+                    +55 47 98843-6733
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://wa.me/554299753461?text=Oi,%20vi%20alguns%20pacotes%20de%20pesca%20no%20seu%20site."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white transition"
+                  >
+                    +55 42 99753-461
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

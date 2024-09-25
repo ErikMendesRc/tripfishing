@@ -13,7 +13,7 @@ interface PackageCardProps {
 }
 
 const PackageCard: React.FC<PackageCardProps> = ({ destination, image, description, duration, price }) => {
-  const whatsappNumber = '5547988436733';
+  const whatsappNumber = '554299753461';
 
   // Mensagem personalizada incluindo o destino
   const customMessage = `Olá, estou interessado no pacote ${destination} que vi no site da Trip Fishing`;
