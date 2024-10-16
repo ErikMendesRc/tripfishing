@@ -41,6 +41,46 @@ const photos: Photo[] = [
     src: '/images/galeria/7.jpg',
     alt: 'Dourado',
   },
+  {
+    id: 7,
+    src: '/images/galeria/8.jfif',
+    alt: 'Tucunaré Azul',
+  },
+  {
+    id: 8,
+    src: '/images/galeria/9.jfif',
+    alt: 'Tucunaré Açu',
+  },
+  {
+    id: 9,
+    src: '/images/galeria/10.jfif',
+    alt: 'Tucunaré Pinima',
+  },
+  {
+    id: 10,
+    src: '/images/galeria/11.jfif',
+    alt: 'Tucunaré Pinima',
+  },
+  {
+    id: 11,
+    src: '/images/galeria/12.jfif',
+    alt: 'Amazônia',
+  },
+  {
+    id: 12,
+    src: '/images/galeria/13.jfif',
+    alt: 'Dourado',
+  },
+  {
+    id: 13,
+    src: '/images/galeria/14.jfif',
+    alt: 'Amazônia',
+  },
+  {
+    id: 14,
+    src: '/images/galeria/15.jfif',
+    alt: 'Dourado',
+  },
   // Adicione mais fotos conforme necessário
 ];
 

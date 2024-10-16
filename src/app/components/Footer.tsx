@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white transition"
                   >
-                    +55 42 99753-461
+                    +55 42 99975-3461
                   </a>
                 </p>
               </div>
